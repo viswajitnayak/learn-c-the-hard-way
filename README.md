@@ -1,2 +1,2 @@
 # learn-c-the-hard-way
-Hands-on C based on Books by Zed A. Shaw
+Hands-on C programs based on Books by Zed A. Shaw
