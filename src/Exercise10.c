@@ -8,6 +8,7 @@ int main(int argc, char *argv[]){
   }
 
   printf("This program prints all the vowels positions.\n");
+  printf("The first argument in the array is %s.\n", argv[0]);
 
   int i = 0;
   for(i = 0; argv[1][i] != '\0'; i++){
