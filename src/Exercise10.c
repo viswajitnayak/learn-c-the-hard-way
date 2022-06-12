@@ -7,8 +7,8 @@ int main(int argc, char *argv[]){
     return 1;
   }
 
-  printf("This program prints all the vowels positions.\n");
-  printf("The first argument in the array is %s.\n", argv[0]);
+  printf("This program prints all the vowels positions.\n\n");
+  printf("The first argument in the array is %s \n\n", argv[0]);
 
   int i = 0;
   for(i = 0; argv[1][i] != '\0'; i++){
@@ -31,6 +31,12 @@ int main(int argc, char *argv[]){
       case 'O':
         printf("%d: 'O'\n", i);
 	break;
+      case 'u':
+      case 'U':
+        printf("%d: 'U'\n", i);
+	break;
+      default:
+        printf("%d: %c is not a vowel\n", i, letter);
     }
   }
   return 0;
