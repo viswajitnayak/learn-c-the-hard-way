@@ -17,5 +17,10 @@ int main(int argc, char *argv[])
     printf("I have the last name \t==> %s\n", last_name);
     printf("My whole name is \t==> %s %c. %s\n", first_name, initial, last_name);
 
+    int bugs = 100;
+    double bug_rate = 1.2;
+
+    printf("You have %d bugs at the imaginary rate of %f.\n", bugs, bug_rate);
+
     return 0;
 }
